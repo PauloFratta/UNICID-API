@@ -1,0 +1,28 @@
+.titulo1{
+    color:#009B82 ;
+    font-family: arial,sans-serif,;
+    text-align: center;
+}.comum{
+    color: #0a0909;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: arial;
+}
+.destaque{
+    background-color: #dde0e2;
+    color: #0066CC ;
+    border: 1px solid #7eebd8;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+article:hover{
+    
+ background-color: #f5f5f5;
+ transition:  0.3s;
+ box-shadow: 5px 5px 20px rgba(112, 110, 110, 0.2);
+  margin-bottom: 100px;
+}
+body{
+    background-color:#80a3c5;
+}
