@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartão de Perfil Profissional - Vinicius Custódio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #edf2f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cartao-perfil {
+            width: 300px;
+            background-color: #ffffff;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: center;
+            transition: box-shadow 0.3s;
+        }
+
+        .cartao-perfil:hover {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cartao-perfil img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px auto;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #4a5568;
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        p {
+            color: #718096;
+            margin: 5px 0;
+        }
+
+        .bio {
+            color: #4a5568;
+            text-align: justify;
+            margin-top: 10px;
+        }
+
+        .contato a {
+            display: inline-block;
+            color: #4299e1;
+            text-decoration: none;
+            margin: 10px 10px 0 10px;
+            transition: color 0.2s;
+        }
+
+        .contato a:visited {
+            color: #2b6cb0;
+        }
+
+        .contato a:hover {
+            color: #3182ce;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cartao-perfil">
+        <img src="OIP.jpg" alt="Foto de perfil">
+        <h1>Vinicius C</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <p>São Paulo, Brasil</p>
+        <p class="bio">
+            Especialista em HTML, CSS e JavaScript. Apaixonada por criar interfaces
+            responsivas e acessíveis.
+        </p>
+        <div class="contato">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Portfólio</a>
+        </div>
+    </div>
+
+</body>
+</html>
