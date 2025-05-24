@@ -1,0 +1,44 @@
+body{
+    background-color: #e4d7af;
+}
+.card {
+    background-color: #60b3e0;
+    container-type: inline-size;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.titulo1 {
+    color: #000000;
+    font-family: arial, sans-serif, ;
+    text-align: center;
+}
+
+.comum {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: arial;
+}
+
+.destaque {
+    background-color: #dde0e2;
+    color: #003060;
+    border: 1px solid #009B82;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+article{
+    opacity: 1;
+}
+article:hover {
+    opacity: 1;
+    box-shadow: 5px 5px 20px rgba(68, 55, 55, 0.2);
+    background-color: #ffffff;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
