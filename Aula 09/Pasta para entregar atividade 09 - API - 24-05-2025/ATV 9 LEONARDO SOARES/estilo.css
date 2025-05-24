@@ -1,0 +1,77 @@
+
+body{
+    background-color: #e4e4e4;
+    margin: 0;
+}
+
+h1{
+    color: #009b82;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+h2{
+    color: #0066CC;
+    font-size: 18px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 8px;
+    font-style: normal; 
+}
+
+p{
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 8px;
+    font-style: normal; 
+    
+}
+
+.destaque{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 8px;
+    font-style: normal; 
+    font-size: 13px;
+    background-color: #F0F8FF;
+    color: #0066CC;
+    border: 3px solid #009B82;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+article{
+    transform: scale(1);
+    transform-origin: left;
+    background-color:#f5f5f5;
+    transition: transform 0.5s ease;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+article:hover{
+    background-color:#fcfcfc;
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #009B82;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
