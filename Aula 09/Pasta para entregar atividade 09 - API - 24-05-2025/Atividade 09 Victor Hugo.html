@@ -1,0 +1,115 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias - UNICID</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+      
+        header h1 {
+            text-align: center;
+            color: #009B82; 
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            transition: background-color 0.3s;
+        }
+
+        article:hover {
+            background-color: #f5f5f5;
+            transition: background-color 0,3s;
+        }
+
+        article h2 {
+            font-size: 1.8rem;
+            color: #0066CC;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .destaque {
+            background-color: #F0F8FF;
+            color: #0066CC;
+            border: 1px solid #009B82;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .destaque:hover {
+            background-color: #f5f5f5;
+            color: #004b99;
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #009B82;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UNICID Notícias</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Universidade lança novo curso de Tecnologia</h2>
+            <p class="destaque"> A UNICID acaba de anunciar o novo curso de 
+        <strong>Desenvolvimento Web</strong>, com foco em <em>HTML</em>, <em>CSS</em> e <em>JavaScript</em>.</p>
+            <p>As inscrições estarão abertas a partir do próximo mês. Não perca essa oportunidade!</p>
+        </article>
+
+        <article>
+            <h2>Evento de Inovação Tecnológica</h2>
+            <p class="destaque">Participe do <strong>Tech Day UNICID</strong>, um evento gratuito com palestras e workshops sobre as últimas tendências em TI.</p>
+            <p>Data: 15/10/2024 | Local: Auditório Central</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 UNICID - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
