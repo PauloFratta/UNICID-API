@@ -1,0 +1,14 @@
+Instalar
+
+Chrome
+
+Node.js
+
+VsCode
+
+
+Vs Code - Extenções
+
+Prettier - Code Formatter
+
+React Snippe
